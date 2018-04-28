@@ -13,6 +13,8 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
+
+
 public class Fragment1 extends Fragment {
 
     EditText edt;
@@ -21,7 +23,9 @@ public class Fragment1 extends Fragment {
 
 
     public Fragment1() {
+
         // Required empty public constructor
+
     }
 
 
@@ -38,6 +42,7 @@ public class Fragment1 extends Fragment {
             @Override
             public void onClick(View v) {
                 String str = edt.getText().toString();
+
                 mfragmentCallback.show(str);
 
             }
