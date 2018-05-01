@@ -1,6 +1,5 @@
 package com.example.banarsibabu.mr31app;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -41,6 +40,7 @@ public class Fragment1 extends Fragment {
         _txt2_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 String str = edt.getText().toString();
 
                 mfragmentCallback.show(str);
@@ -55,6 +55,4 @@ public class Fragment1 extends Fragment {
     public void setCallback(FragmentCallback fragmentCallback) {
         mfragmentCallback = fragmentCallback;
     }
-
-
 }

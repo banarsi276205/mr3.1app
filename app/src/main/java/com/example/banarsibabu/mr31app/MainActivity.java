@@ -10,6 +10,10 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 
+
+// update textview of one fragment from another fragment
+
+
 public class MainActivity extends AppCompatActivity {
 
     SharedPreferences mPrefs;
