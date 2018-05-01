@@ -12,10 +12,10 @@ import com.google.gson.Gson;
 
 
 // update textview of one fragment from another fragment
-
 // branch testing
 // branching
 //branching3
+//master
 
 
 public class MainActivity extends AppCompatActivity {
